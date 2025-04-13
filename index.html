@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📋 Minha Lista de Tarefas</h1>
+
+  <div class="input-container">
+    <input type="text" id="tarefa" placeholder="Digite sua tarefa">
+    <select id="categoria">
+      <option value="Estudos">📚 Estudos</option>
+      <option value="Treino">🏋️ Treino</option>
+      <option value="Casa">🏡 Casa</option>
+    </select>
+    <button onclick="adicionarTarefa()">Adicionar</button>
+  </div>
+  
+
+  <ul id="lista"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
